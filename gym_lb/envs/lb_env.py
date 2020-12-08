@@ -14,7 +14,6 @@ class LbEnv(gym.Env):
     def __init__(self):
         self.ipvsadm = ipvs.IpvsClient()
         self.docker_cli = docker.from_env()
-        self.load_args = config.LOAD_ARGS
 
         self.service = ipvs.Service({
             "vip": config.SERVICE_IP,
