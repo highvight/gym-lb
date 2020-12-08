@@ -5,6 +5,7 @@ A gym environment for load balancing
 - [ ] Docker container cpu and memory management (perhaps also network bandwith?)
 - [ ] Fix gnlpy key error (for manual fix see below)
 - [ ] Find good tool for latency measurement that works in Python (without cli)
+- [ ] Remove service and running containers on environment close
 - [ ] Upload to pip
 
 ## Installation
