@@ -1,3 +1,5 @@
+import os
+
 import gym
 
 # Check for root privileges
