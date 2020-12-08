@@ -60,7 +60,7 @@ env = gym.make('gym_lb:lb-v0')
 
 You need to run your script with root privileges. One option is:
 ```
-sudo PYTHONPATH your_script.py
+sudo PYTHONPATH your_script.py #(or just use example.py)
 ```
 where ```PYTHONPATH``` points to the python installation you want to use. For instance, if you use Anaconda, your path will look something like this: ```~/anaconda3/envs/ENVIRONMENT/bin/python```.
 
