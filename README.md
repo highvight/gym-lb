@@ -11,7 +11,7 @@ A gym environment for load balancing
 Clone this repo:
 
 ```
-git clone https://github.com/highvight/rl-load-balancer.git
+git clone https://github.com/highvight/gym-lb.git
 ```
 
 Install the package with:
